@@ -1,6 +1,6 @@
 # TRAIVIS_PROJECT_LSRS
 Welcome to our machine learning model for recommending learning styles for students.
-
+The proposed system automatically depends on an Al classification algorithm to identify students' learning styles using a data-driven approach. We have built our model in light of the Felder and Silverman Learning Style Model (FSLSM) as it is a widely used model that has proven to be suitable for use in traditional educational systems. TRAIVIS's team has decided to use FSLSM as a guide because it focuses on the teaching approaches and students' psychological analysis. The collected data from students' behaviour on TRAVIS's platform and feedback system will feed the trained Al model for analysis. Then, TRAITS-LSRS will display student learning styles in four different parameters based on student behaviour patterns.
 This project aims to help students identify their preferred learning style to optimize their learning outcomes. The model was built using various machine learning techniques such as data preprocessing, feature engineering, model selection, and hyperparameter tuning.
 We have used KNN algorithm for implementing our project.
 
