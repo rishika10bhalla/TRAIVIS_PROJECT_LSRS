@@ -8,18 +8,18 @@ Our model takes into account various factors such as student demographics, acade
 The factors we have taken into consideration specifically are:
 ABC - area before content
 D - definitions
-C - 
-A - 
-AAC - 
-V - 
-ABC T - 
-D T - 
-C T - 
-A T - 
-AAC T - 
-LS - 
+C - detailed content
+A - activity questions
+AAC - area after content( summaries, revision exercises)
+V - content pages with visual illustrations
+ABC T - time on area before content
+D T - time spent on definitions
+C T - time spent on detailed content
+A T - time spent on activity questions
+AAC T - time spent on area after content(summaries, revision exercises)
+LS - learning style to be predicted
 
-We used a publicly available dataset to train and test our model. We also conducted a cross-validation study to ensure the robustness of our model.
+We used a publicly available dataset to train(knn.js) and test our model(test0.js). We also conducted a cross-validation study to ensure the robustness of our model.
 
 This model is intended to be used as a guidance tool and not a definitive assessment of a student's learning style. We encourage students to explore various learning styles and find what works best for them.
 
