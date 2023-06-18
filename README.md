@@ -1,7 +1,7 @@
 # TRAIVIS_PROJECT_LSRS
-## Problem Statement
+## Problem Statement:
 This project aims to develop a Learning Style Recommender System (LSRS) that can analyze and identify the learning styles of students based on their preferences, aptitudes, and cognitive characteristics. The LSRS should leverage machine learning algorithms and techniques to process and analyze various data sources, such as student profiles, academic performance data, self-assessment questionnaires, and teacher feedback. The project model is in light of the Felder and Silverman Learning Style Model (FSLSM) as it is a widely used model that has proven to be suitable for use in traditional educational systems.
-## Dataset Columns
+## Dataset Columns:
 The dataset includes the following 12 columns:
 * **ABC:** area before content
 * **D:** definitions
@@ -119,3 +119,8 @@ Once the dependencies are installed and the project is configured, you should be
 streamlit run frontEnd.py
 ```
 By following these steps, you should be able to install and run the project from GitHub on your local machine. 
+## Conributors :
+- [Divjot Kaur](https://github.com/Divjot30)
+- [Sarthak Rathore](https://github.com/sarthakrathore23)
+- [Raghav Bohra](https://github.com/raghavbohra28)
+- [Rishika Bhalla](https://github.com/rishika10bhalla)
