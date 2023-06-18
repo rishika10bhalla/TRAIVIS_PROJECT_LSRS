@@ -6,15 +6,15 @@ The dataset includes the following 12 columns:
 * **ABC:** area before content
 * **D:** definitions
 * **C:** detailed content
-AAC: activity questions
-A: area after content( summaries, revision exercises)
-V: content pages with visual illustrations 
-ABC_T: time on area before content
-D_T: time spent on definitions
-C_T: time spent on detailed content
-AAC_T: time spent on activity questions
-A_T: time spent on area after content(summaries, revision exercises)
-LS: learning style to be predicted
+* **AAC:** activity questions
+* **A:** area after content( summaries, revision exercises)
+* **V:** content pages with visual illustrations 
+* **ABC_T:** time on area before content
+* **D_T:** time spent on definitions
+* **C_T:** time spent on detailed content
+* **AAC_T:** time spent on activity questions
+* **A_T:** time spent on area after content(summaries, revision exercises)
+* **LS:** learning style to be predicted
 ## Target Variable
 In the given code, the target variable is represented by the type variable. It is extracted from the LS property of each row in the CSV file. The goal of the code is to train a K-nearest neighbors (KNN) classifier to predict this target variable (type) based on the input data.
 
@@ -54,53 +54,38 @@ The predicted type is returned as the output of the getType function.
 
 In summary, this code reads a CSV file, converts it into a JSON object, trains a k-nearest neighbors classifier using the data, and then uses the classifier to predict the type of a given input.
 ## Flowchart: 
-START
-      |
-     V
-[Import Modules]
-      |
-     V
-[Define csvJSON Function]
-      |
-     V
-[Define getType Function]
-      |
-     V
-[Read CSV File]
-      |
-     V
-[Convert CSV to JSON]
-      |
-     V
-[Create Set for Types]
-      |
-     V
-[Iterate Over JSON Data]
-      |
-     V
-[Add Types to Set]
-      |
-     V
-[Convert Types Set to Array]
-      |
-     V
-[Iterate Over JSON Data (Again)]
-      |
-     V
-[Convert Row Values to Array]
-      |
-     V
-[Store Type and Features]
-      |
-     V
-[Train KNN Classifier]
-      |
-     V
-[Predict Type]
-      |
-     V
-[Return Type]
-      |
+* START
+      
+* [Import Modules]
+     
+* [Define csvJSON Function]
+     
+* [Define getType Function]
+     
+* [Read CSV File]
+     
+* [Convert CSV to JSON]
+     
+* [Create Set for Types]
+     
+* [Iterate Over JSON Data]
+    
+* [Add Types to Set]
+     
+* [Convert Types Set to Array]
+     
+* [Iterate Over JSON Data (Again)]
+     
+* [Convert Row Values to Array]
+     
+* [Store Type and Features]
+     
+* [Train KNN Classifier]
+    
+* [Predict Type]
+     
+* [Return Type]
+      
 END
 # Installation :
 ## Requirements :
