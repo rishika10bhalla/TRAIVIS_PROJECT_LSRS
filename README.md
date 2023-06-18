@@ -53,8 +53,8 @@ The knn.predict(input) method is called, where input is the input data point for
 The predicted type is returned as the output of the getType function.
 
 In summary, this code reads a CSV file, converts it into a JSON object, trains a k-nearest neighbors classifier using the data, and then uses the classifier to predict the type of a given input.
-## Flowchart: 
-* START
+## Architecture: 
+START
       
 * [Import Modules]
      
