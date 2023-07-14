@@ -121,6 +121,6 @@ streamlit run frontEnd.py
 By following these steps, you should be able to install and run the project from GitHub on your local machine. 
 ## Conributors :
 - [Divjot Kaur](https://github.com/Divjot30)
-- [Sarthak Rathore](https://github.com/sarthakrathore23)
-- [Raghav Bohra](https://github.com/raghavbohra28)
 - [Rishika Bhalla](https://github.com/rishika10bhalla)
+- [Raghav Bohra](https://github.com/raghavbohra28)
+- [Sarthak Rathore](https://github.com/sarthakrathore23)
