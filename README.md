@@ -1,6 +1,6 @@
 # TRAIVIS_PROJECT_LSRS
 ## Problem Statement:
-This project aims to develop a Learning Style Recommender System (LSRS) that can analyze and identify the learning styles of students based on their preferences, aptitudes, and cognitive characteristics. The LSRS should leverage machine learning algorithms and techniques to process and analyze various data sources, such as student profiles, academic performance data, self-assessment questionnaires, and teacher feedback. The project model is in light of the Felder and Silverman Learning Style Model (FSLSM) as it is a widely used model that has proven to be suitable for use in traditional educational systems.
+This project aims to develop a Learning Style Recommender System (LSRS) that can analyze and identify the learning styles of students based on their preferences, aptitudes, and cognitive characteristics. The LSRS should leverage machine learning algorithms and techniques to process and analyze various data sources, such as student profiles, academic performance data, self-assessment questionnaires, and teacher feedback. The project model is in light of the Felder and Silverman Learning Style Model (FSLSM) as it is a widely used model that has proven to be suitable for use in traditional educational systems. 
 ## Dataset Columns:
 The dataset includes the following 12 columns:
 * **ABC:** area before content
